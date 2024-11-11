@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="icon" type="image/png" href="C:\Users\netta\OneDrive\Documents\Cyberpro - fullstack\landingpageportfolio\images\beagle.png">
+    <!-- <a href="https://www.flaticon.com/free-icons/beagle" title="beagle icons">Beagle icons created by Chanut-is-Industries - Flaticon</a> -->
+    <link rel="stylesheet" href="style.css">
     <style>
         #welcommsg {
-            font-size: 40px
+            font-size: 50px;
         }
     </style>
 </head>
@@ -25,7 +28,7 @@
                 <td align="right">
                     <nav> <!--this is a navigation bar-->
                         <a href="#">Home</a> |
-                        <a href=".\About.html">About</a>
+                        <a href=".\About.html">About</a>|
                         <a href=".\Contact.html">Contactus</a>
                     </nav>
                 </td>
@@ -62,7 +65,6 @@
         </table>
 
         <h2>Our Features</h2>
-        <h2>Our Features</h2>
         <table width="100%" cellpadding="20" cellspacing="0" border="0">
             <tr>
                 <td width="33%" valign="top">
@@ -87,14 +89,15 @@
     <h2>please add your personal info:</h2>
     <form>
         <label for="username">username</label>
-        <input id="username" type="text" required>
+        <input id="username" type="text" required maxlength="10" minlength="3">
         <label for="password">password</label>
-        <input id="password" type="password" required>
+        <input id="password" type="password" required maxlength="20" minlength="5">
         <label for="email">email</label>
         <input id="email" type="text">
         <label for="DOB">Date of Bird</label>
         <input id="DOB" type="date">
+        <input type="submit">
     </form>
-    <input type="submit">
+
 
 </html>
