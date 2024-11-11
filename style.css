@@ -1,4 +1,21 @@
 h1 {
-    color: crimson;
-    background: #00000016;
+  color: crimson;
+}
+#cssrect {
+  height: 100px;
+  width: 100px;
+  background-color: beige;
+  text-align: center;
+}
+#cssrect2 {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    text-align: right;
+}
+#cssrect3 {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    text-align: left;
 }
